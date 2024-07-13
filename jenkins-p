@@ -1,0 +1,14 @@
+pipelin {
+    agent any
+    stages {
+        stage {
+            steps {
+                sh'''
+                ls -lrt
+                ls
+                '''
+                
+            }
+        }
+    }
+}
